@@ -6,7 +6,7 @@ const SumCalculator = () => {
         <div>
             <h1>Sum Calculator</h1>
             <input type="number" onChange={(e)=>{setSum(sum+parseInt(e.target.value))}} ></input>
-            <p>Sum: {sum} </p>
+            <p>Sum: {sum}</p>
         </div>
     );
 };
